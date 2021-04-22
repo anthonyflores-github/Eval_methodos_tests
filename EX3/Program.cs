@@ -26,7 +26,7 @@ namespace Test_cours
                 }
                 else
                 {
-                    if (ligne.Length + 1 + element.Length <= len)
+                    if (ligne.Length + element.Length <= len)
                     {
                         sentenceResult = sentenceResult + " " + element;
                     }
